@@ -1,6 +1,5 @@
 class RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
-        
         char [] ransomNoteArray = ransomNote.toCharArray();
         
         for(char c : ransomNoteArray){
