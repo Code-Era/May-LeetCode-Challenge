@@ -8,7 +8,8 @@ class RansomNote {
             if(index == -1){
                 return false;
             }
-            magazine = magazine.substring(0, index)  + magazine.substring(index+1, magazine.length());  
+            magazine = magazine.substring(0, index)  
+                + magazine.substring(index+1, magazine.length());  
             
         }
         return true;
