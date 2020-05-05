@@ -1,4 +1,4 @@
-public class Solution extends VersionControl {
+public class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {
         int low = 1;
     int right = n;
