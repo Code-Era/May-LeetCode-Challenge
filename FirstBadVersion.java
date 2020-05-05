@@ -10,6 +10,6 @@ public class FirstBadVersion extends VersionControl {
                 low = mid + 1;
           }
     }
-    return low;
+     return low;
     }
 }
